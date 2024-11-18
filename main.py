@@ -23,6 +23,7 @@ try:
     epd.init()
     epd.Clear()
 
+    logging.info("Loading fonts...")
     font60 = ImageFont.truetype(os.path.join(fontdir, 'JetBrainsMono/JetBrainsMono-BoldItalic.ttf'), 60)
 
     logging.info("1.Drawing on the Horizontal image...")
